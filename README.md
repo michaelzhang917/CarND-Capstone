@@ -14,18 +14,22 @@ This is the capstone project repo for team _What's In a Name? (WIN)_. Team WIN i
   <tr>
     <td>Ian Zhang</td>
     <td>Drive-By-Wire (DBW)</td>
+    <td>ianboyanzhang@gmail.com</td>
   </tr>
   <tr>
     <td>Lucas Souza</td>
     <td>Traffic Sign Detector</td>
+    <td>lucasosouza@gmail.com</td>
   </tr>
   <tr>
     <td>Shay Koren</td>
     <td>Waypoint Updater</td>
+    <td>shaykoren18@gmail.com</td>
   </tr>
   <tr>
     <td>Yong Zhang</td>
     <td>Documentation and Integration Tests</td>
+    <td>michaelzhang917@gmail.com</td>
   </tr>
 </table>
 
