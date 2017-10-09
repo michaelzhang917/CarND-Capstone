@@ -4,10 +4,12 @@ This is the capstone project repo for team _What's In a Name? (WIN)_. Team WIN i
   <tr>
     <th>Name</th>
     <th>Role / Responsibility</th>
+    <th> Udacity Email</th>
   </tr>
   <tr>
     <td>Helio Perroni Filho</td>
     <td>Team Leader</td>
+    <td>xperroni@gmail.com</td>
   </tr>
   <tr>
     <td>Ian Zhang</td>
