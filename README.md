@@ -6,7 +6,7 @@
 
 ## Introduction 
 
-The goal of this project is to integrate the perception, planning and control software subsystems for a provided Udacity car (called "Carla") so that the car can drive around a given test track using a waypoint navigation. Waypoints are an ordered set of coordinates (in a real world or in a simulator). Since we work remotely from different places and the car is located in the Udacity headquarter, we use a simulator during our development which is provided by Udacity. 
+The goal of this project is to integrate the perception, planning and control software subsystems for a provided Udacity car (called "Carla") so that the car can drive around a given test track using a waypoint navigation. Carla is an autonomous Lincoln MKZ, at Udacity's test site in Palo Alto, California. Since our team members come from different places in the world, we use a simulator during our development which is provided by Udacity. 
 
 The provided car has these hardware specifications:
 
@@ -21,7 +21,7 @@ In the planning subsystem, we implement a waypoint updater for updating the next
 
 ![architecture][image1]
 
-
+## The Team
 
 This is the capstone project repo for team _What's In a Name? (WIN)_. Team WIN is composed of the following course participants:
 
@@ -58,6 +58,7 @@ This is the capstone project repo for team _What's In a Name? (WIN)_. Team WIN i
   </tr>
 </table>
 
+## Manual
 ### Installation
 
 * Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
