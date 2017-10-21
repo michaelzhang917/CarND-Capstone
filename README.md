@@ -157,3 +157,14 @@ The package contains the waypoint updater node: waypoint_updater.py. The purpose
 Carla is equipped with a drive-by-wire (dbw) system, meaning the throttle, brake, and steering have electronic control. This package contains the files that are responsible for control of the vehicle: the node dbw_node.py and the file twist_controller.py, along with a pid and lowpass filter that you can use in your implementation. The dbw_node subscribes to the /current_velocity topic along with the /twist_cmd topic to receive target linear and angular velocities. Additionally, this node will subscribe to /vehicle/dbw_enabled, which indicates if the car is under dbw or driver control. This node will publish throttle, brake, and steering commands to the /vehicle/throttle_cmd, /vehicle/brake_cmd, and /vehicle/steering_cmd topics.
 
 ![DBW][image4]
+
+In addition, the following styx and styx_msgs packages are used to provide a link between the simulator and ROS, and to provide custom ROS message types:
+
+(path_to_project_repo)/ros/src/styx/
+A package that contains a server for communicating with the simulator, and a bridge to translate and publish simulator messages to ROS topics.
+(path_to_project_repo)/ros/src/styx_msgs/
+A package which includes definitions of the custom ROS message types used in the project.
+(path_to_project_repo)/ros/src/waypoint_loader/
+A package which loads the static waypoint data and publishes to /base_waypoints.
+(path_to_project_repo)/ros/src/waypoint_follower/
+A package containing code from Autoware which subscribes to /final_waypoints and publishes target vehicle linear and angular velocities in the form of twist commands to the /twist_cmd topic.
