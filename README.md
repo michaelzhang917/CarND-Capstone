@@ -15,11 +15,17 @@ The provided car has these hardware specifications:
 * TITAN X Graphics
 * 64-bit OS
 
-The perception subsystem contains obstacle and traffic light detection. The detection provides a traffic light color detection so that the car knows when to stop or drive if the car approaches an intersection with a traffic light.
-
-In the planning subsystem, we implement a waypoint updater for updating the next waypoint depending on the desired behavior. The throttle, break, and steering of the car are actuated by the control subsystem. The implemented subsystem overview for this project can be visualized as following:
+The following is a system architecture diagram showing the ROS nodes and topics used in the project. 
 
 ![architecture][image1]
+
+There are three core functionalities of the system, including preception, planning and control.
+
+1. The perception subsystem contains obstacle and traffic light detection. The detection provides a traffic light color detection so that the car knows when to stop or drive if the car approaches an intersection with a traffic light.
+
+2. In the planning subsystem, we implement a waypoint updater for updating the next waypoint depending on the desired behavior. 
+
+3. The throttle, break, and steering of the car are actuated by the control subsystem. 
 
 ## The Team
 
