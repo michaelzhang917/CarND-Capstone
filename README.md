@@ -100,4 +100,4 @@ chmod +x ros_test.x86_64
 ```
 
 [//]: # (Image References)
-[image1]: ./imgs/subsystem_arch.png
+[image1]: ./imgs/final-project-ros-graph-v2.png
