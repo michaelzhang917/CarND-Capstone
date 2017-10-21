@@ -134,11 +134,12 @@ Below is a brief overview of the repo structure, along with descriptions of the 
 
 ### Traffic Light Detection Package
 
-1. Location: (path_to_project_repo)/ros/src/tl_detector/
-2. Description: This package contains the traffic light detection node: tl_detector.py. This node takes in data from the /image_color, /current_pose, and /base_waypoints topics and publishes the locations to stop for red traffic lights to the /traffic_waypoint topic.
+This package is implenmented in (path_to_project_repo)/ros/src/tl_detector/ .
+
+The package contains the traffic light detection node: tl_detector.py. This node takes in data from the /image_color, /current_pose, and /base_waypoints topics and publishes the locations to stop for red traffic lights to the /traffic_waypoint topic.
 
 The /current_pose topic provides the vehicle's current position, and /base_waypoints provides a complete list of waypoints the car will be following.
 
-You will build both a traffic light detection node and a traffic light classification node. Traffic light detection should take place within tl_detector.py, whereas traffic light classification should take place within ../tl_detector/light_classification_model/tl_classfier.py.
+We build both a traffic light detection node and a traffic light classification node. Traffic light detection is implenmented in tl_detector.py, while traffic light classification is built in ../tl_detector/light_classification_model/tl_classfier.py. A tensorflow based classification model is trained for the light classification and stored in ../tl_detector/light_classification/model_data/ .
 
 ![traffic_light][image2]
