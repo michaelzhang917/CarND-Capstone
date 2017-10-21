@@ -1,6 +1,9 @@
 # Final Project of Udacity Self Driving Car Course 
 **System Integration for a Real Self-Driving Car** 
 
+[//]: # (Image References)
+[image1]: ./imgs/final-project-ros-graph-v2.png
+
 ## Introduction 
 
 The goal of this project is to integrate the perception, planning and control software subsystems for a provided Udacity car (called "Carla") so that the car can drive around a given test track using a waypoint navigation. Waypoints are an ordered set of coordinates (in a real world or in a simulator). Since we work remotely from different places and the car is located in the Udacity headquarter, we use a simulator during our development which is provided by Udacity. 
@@ -99,5 +102,4 @@ chmod +x ros_test.x86_64
 ./ros_test.x86_64
 ```
 
-[//]: # (Image References)
-[image1]: ./imgs/final-project-ros-graph-v2.png
+
