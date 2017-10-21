@@ -23,7 +23,7 @@ In the planning subsystem, we implement a waypoint updater for updating the next
 
 ## The Team
 
-This is the capstone project repo for team _What's In a Name? (WIN)_. Team WIN is composed of the following course participants:
+Our team  _What's In a Name? (WIN)_ is composed of the following course participants:
 
 <table>
   <tr>
