@@ -118,4 +118,4 @@ rosbag play -l traffic_light_bag_files/loop_with_traffic_light.bag
 cd CarND-Capstone/ros
 roslaunch launch/site.launch
 ```
-5. Confirm that traffic light detection works on real life images
+
