@@ -38,32 +38,26 @@ Our team  _What's In a Name? (WIN)_ is composed of the following course particip
   <tr>
     <th>Name</th>
     <th>Role / Responsibility</th>
-    <th> Udacity Email</th>
   </tr>
   <tr>
     <td>Helio Perroni Filho</td>
     <td>Team Leader</td>
-    <td>xperroni@gmail.com</td>
   </tr>
   <tr>
     <td>Ian Zhang</td>
     <td>Drive-By-Wire (DBW)</td>
-    <td>ianboyanzhang@gmail.com</td>
   </tr>
   <tr>
     <td>Lucas Souza</td>
     <td>Traffic Sign Detector</td>
-    <td>lucasosouza@gmail.com</td>
   </tr>
   <tr>
     <td>Shay Koren</td>
     <td>Waypoint Updater</td>
-    <td>shaykoren18@gmail.com</td>
   </tr>
   <tr>
     <td>Yong Zhang</td>
     <td>Documentation and Integration Tests</td>
-    <td>michaelzhang917@gmail.com</td>
   </tr>
 </table>
 
